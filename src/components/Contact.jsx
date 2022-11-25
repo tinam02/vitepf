@@ -17,7 +17,7 @@ function Contact() {
       <Link
         rel="noopener"
         target="_blank"
-        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c70b0dd6-bbe9-49ea-a43d-f4f10654f872"
+        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:8827db3b-5584-40d5-9339-006470ed1c9b"
       >
         <SvgIcon
           sx={{
