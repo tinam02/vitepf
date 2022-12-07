@@ -10,25 +10,32 @@ import { useState } from "react";
 
 function ProjectCard({ project }) {
   const [expanded, setExpanded] = useState(false);
-  
+
   return (
-    <Box
-      sx={{
-        maxWidth: 550,
-      }}
-    >
+    <Box>
       <Box
         sx={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          // flexDirection: "column",
         }}
       >
         <Box
           sx={{
-            gap: 2,
+            gap: {
+              xs: 0,
+              md: 2,
+            },
             display: "flex",
-            alignItems: "center",
+            alignItems: {
+              xs: "start",
+              md: "center",
+            },
+            flexDirection: {
+              xs: "column",
+              md: "row",
+            },
           }}
         >
           <Typography variant="h6">{project.title}</Typography>
@@ -37,7 +44,7 @@ function ProjectCard({ project }) {
             target="_blank"
             href={project.link}
             sx={{
-              color: "black",
+              color: "#000",
               cursor: "pointer",
               textDecoration: "#FFE71B dotted underline",
             }}
@@ -46,7 +53,15 @@ function ProjectCard({ project }) {
           </Link>
         </Box>
         <ButtonBase disableRipple onClick={() => setExpanded((prev) => !prev)}>
-          <Typography sx={{ fontSize: 30 }}>+</Typography>
+          <Typography
+            sx={{
+              fontSize: 30,
+            }}
+          >
+           {
+             expanded ? "-" : "+"
+           }
+          </Typography>
         </ButtonBase>
       </Box>
       <Box
