@@ -14,13 +14,7 @@ function Projects() {
         },
       }}
     >
-      <Typography
-        sx={{
-        
-        }}
-      >
-        my projects
-      </Typography>
+      <Typography>my projects</Typography>
 
       {projectData.map((project) => {
         return (
