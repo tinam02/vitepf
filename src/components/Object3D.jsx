@@ -19,7 +19,7 @@ function Object3D() {
       }}
     >
       <Suspense fallback={<p>Loading...</p>}>
-      <Spline scene="https://prod.spline.design/eSFZZiMyCvBQI60V/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/YqcpGrkdALDhbu5T/scene.splinecode" />
       </Suspense>
     </Box>
   );
