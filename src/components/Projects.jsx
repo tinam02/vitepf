@@ -9,14 +9,14 @@ function Projects() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        width: {
-          lg: 850,
+        maxWidth: {
+          lg: 1300,
         },
       }}
     >
       <Typography
         sx={{
-          fontSize: 24,
+        
         }}
       >
         my projects

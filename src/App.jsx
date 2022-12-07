@@ -23,7 +23,7 @@ function App() {
             display: "flex",
             borderRadius: 5,
             flexDirection: "column",
-            backgroundColor: "rgba(255, 255, 255, 0.1)",
+            backgroundColor: "rgba(255, 255, 255, 0.15)",
           }}
         >
           <NameCard />
@@ -32,6 +32,7 @@ function App() {
           <Contact />
         </Box>
       </Container>
+
       <Object3D />
     </>
   );

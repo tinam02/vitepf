@@ -23,7 +23,7 @@ function Contact() {
         <SvgIcon
           sx={{
             color: "black",
-            fontSize: 40,
+            fontSize: 30,
           }}
           titleAccess="Resume"
         >
@@ -41,7 +41,7 @@ function Contact() {
         <SvgIcon
           sx={{
             color: "black",
-            fontSize: 40,
+            fontSize: 30,
           }}
           titleAccess="Email"
         >
@@ -63,7 +63,7 @@ function Contact() {
         <SvgIcon
           sx={{
             color: "black",
-            fontSize: 40,
+            fontSize: 31,
           }}
           titleAccess="LinkedIn"
         >

@@ -1,12 +1,11 @@
-import { Box } from "@mui/material";
 import { lazy, Suspense } from "react";
 
 const Spline = lazy(() => import("@splinetool/react-spline"));
 
 function Object3D() {
   return (
-    <Box
-      sx={{
+    <div
+      style={{
         top: 0,
         left: 0,
         zIndex: -1,
@@ -21,7 +20,7 @@ function Object3D() {
       <Suspense fallback={<p>Loading...</p>}>
         <Spline scene="https://prod.spline.design/eSFZZiMyCvBQI60V/scene.splinecode" />
       </Suspense>
-    </Box>
+    </div>
   );
 }
 

@@ -6,10 +6,8 @@ function NameCard() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        alignItems: "start",
-        width: {
-          lg: 550,
-        },
+        alignItems: "center",
+        justifyContent: "center",
       }}
     >
       <Box
@@ -32,15 +30,13 @@ function NameCard() {
             textDecoration: "#fff wavy underline",
           }}
         >
-          Tina.
+          Tina
         </Typography>
       </Box>
       <Typography
-        sx={{
-          fontSize: 24,
-        }}
+     
       >
-        frontend developer
+       i'm a frontend developer
       </Typography>
     </Box>
   );

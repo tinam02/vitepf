@@ -18,23 +18,22 @@ function ProjectCard({ project }) {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          // flexDirection: "column",
         }}
       >
         <Box
           sx={{
             gap: {
               xs: 0,
-              md: 2,
+              sm: 2,
             },
             display: "flex",
             alignItems: {
               xs: "start",
-              md: "center",
+              sm: "center",
             },
             flexDirection: {
               xs: "column",
-              md: "row",
+              sm: "row",
             },
           }}
         >
@@ -69,7 +68,6 @@ function ProjectCard({ project }) {
         }}
       >
         <Typography
-          variant="body2"
           sx={{
             fontSize: 12,
             opacity: 0.7,
