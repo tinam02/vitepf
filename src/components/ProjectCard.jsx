@@ -44,9 +44,9 @@ function ProjectCard({ project }) {
             target="_blank"
             href={project.link}
             sx={{
-              color: "#000",
+              color: "#fff",
               cursor: "pointer",
-              textDecoration: "#FFE71B dotted underline",
+              textDecoration: "#000 dotted underline",
             }}
           >
             {project.link}
@@ -58,9 +58,7 @@ function ProjectCard({ project }) {
               fontSize: 30,
             }}
           >
-           {
-             expanded ? "-" : "+"
-           }
+            {expanded ? "-" : "+"}
           </Typography>
         </ButtonBase>
       </Box>
@@ -70,13 +68,25 @@ function ProjectCard({ project }) {
           alignItems: "center",
         }}
       >
-        <Typography variant="body2">
+        <Typography
+          variant="body2"
+          sx={{
+            fontSize: 12,
+            opacity: 0.7,
+          }}
+        >
           &#9733; {project.tech.join(", ")} &#9733;
         </Typography>
       </Box>
       <Collapse in={expanded}>
         <Divider sx={{ my: 1 }} />
-        <Typography>{project.desc}</Typography>
+        <Typography
+          sx={{
+            whiteSpace: "pre-wrap",
+          }}
+        >
+          {project.desc}
+        </Typography>
       </Collapse>
     </Box>
   );

@@ -17,13 +17,15 @@ function Contact() {
       <Link
         rel="noopener"
         target="_blank"
-        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:8827db3b-5584-40d5-9339-006470ed1c9b"
-      >
+      href="/Tina_M.pdf"
+      download
+>
         <SvgIcon
           sx={{
             color: "black",
             fontSize: 40,
           }}
+          titleAccess="Resume"
         >
           <Resume />
         </SvgIcon>
@@ -41,6 +43,7 @@ function Contact() {
             color: "black",
             fontSize: 40,
           }}
+          titleAccess="Email"
         >
           <Mail />
         </SvgIcon>
@@ -62,6 +65,7 @@ function Contact() {
             color: "black",
             fontSize: 40,
           }}
+          titleAccess="LinkedIn"
         >
           <Linkedin />
         </SvgIcon>

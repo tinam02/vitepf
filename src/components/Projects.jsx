@@ -10,7 +10,7 @@ function Projects() {
         display: "flex",
         flexDirection: "column",
         width: {
-          lg: 550,
+          lg: 850,
         },
       }}
     >

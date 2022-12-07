@@ -29,7 +29,7 @@ function App() {
           <NameCard />
           <Divider flexItem />
           <Projects />
-          <Contact/>
+          <Contact />
         </Box>
       </Container>
       <Object3D />
