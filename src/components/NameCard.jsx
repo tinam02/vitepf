@@ -29,7 +29,7 @@ function NameCard() {
           sx={{
             fontSize: 24,
             opacity: 1,
-            textDecoration: "#FFE71B wavy underline",
+            textDecoration: "#fff wavy underline",
           }}
         >
           Tina.
