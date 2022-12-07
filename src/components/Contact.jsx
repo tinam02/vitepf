@@ -58,7 +58,7 @@ function Contact() {
       <Link
         rel="noopener"
         target="_blank"
-        href="https://www.linkedin.com/in/tina-milosavljevic-2454931b9/"
+        href="https://www.linkedin.com/in/tina333/"
       >
         <SvgIcon
           sx={{
