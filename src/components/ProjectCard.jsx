@@ -43,7 +43,10 @@ function ProjectCard({ project }) {
             target="_blank"
             href={project.link}
             sx={{
-              color: "#fff",
+              color: {
+                xs: "#000",
+                sm: "#fff",
+              },
               cursor: "pointer",
               textDecoration: "#000 dotted underline",
             }}
