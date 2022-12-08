@@ -21,9 +21,21 @@ function App() {
             p: 2,
             gap: 3,
             display: "flex",
-            borderRadius: 5,
+            borderRadius: "50px 20px 60px 30px",
+            animation: "border-radius 3s ease-in-out infinite alternate ",
+            "@keyframes border-radius": {
+              "0%": {
+                borderRadius: "50px 20px 60px 30px",
+              },
+
+              "100%": {
+                borderRadius: "10px",
+              },
+            },
+
             flexDirection: "column",
-            backgroundColor: "rgba(255, 255, 255, 0.15)",
+            backgroundColor: "rgba(255, 255, 255, 0.25)",
+            boxShadow: "0px 0px 18px 0px rgba(255,255,255,0.35)",
           }}
         >
           <NameCard />
