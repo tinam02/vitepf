@@ -12,6 +12,10 @@ function Projects() {
         maxWidth: {
           lg: 1300,
         },
+        gap: {
+          xs: 3,
+          sm: 2,
+        },
       }}
     >
       <Typography

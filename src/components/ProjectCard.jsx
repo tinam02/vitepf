@@ -18,6 +18,7 @@ function ProjectCard({ project }) {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+       
         }}
       >
         <Box
@@ -47,8 +48,12 @@ function ProjectCard({ project }) {
                 xs: "#000",
                 sm: "#fff",
               },
+      
               cursor: "pointer",
-              textDecoration: "#000 dotted underline",
+              textDecoration: {
+                xs: "#fff dotted underline",
+                sm: "#000 dotted underline",
+              },
             }}
           >
             {project.link}

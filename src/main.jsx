@@ -7,6 +7,7 @@ import App from "./App";
 import createEmotionCache from "./style/emotionCache";
 import baseTheme from "./style/themeOpts";
 import Layout from "./components/Layout";
+import "./index.css";
 
 
 const emoCache = createEmotionCache();
