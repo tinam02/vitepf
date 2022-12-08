@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import "./index.css";
 
 function App() {
-  const matches = useMediaQuery("(min-width:500px)");
+  const matches = useMediaQuery("(min-width:600px)");
   return (
     <>
       <Container
