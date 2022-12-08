@@ -1,4 +1,3 @@
-import "./index.css";
 
 import { CacheProvider } from "@emotion/react";
 import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
@@ -8,6 +7,7 @@ import App from "./App";
 import createEmotionCache from "./style/emotionCache";
 import baseTheme from "./style/themeOpts";
 import Layout from "./components/Layout";
+
 
 const emoCache = createEmotionCache();
 const theme = createTheme(baseTheme);

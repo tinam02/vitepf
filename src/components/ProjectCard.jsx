@@ -71,6 +71,10 @@ function ProjectCard({ project }) {
           sx={{
             fontSize: 12,
             opacity: 0.7,
+            display: {
+              xs: "none",
+              sm: "block",
+            },
           }}
         >
           &#9733; {project.tech.join(", ")} &#9733;
