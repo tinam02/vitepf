@@ -87,6 +87,11 @@ function ProjectCard({ project }) {
         <Divider sx={{ my: 1 }} />
         <Typography
           sx={{
+            fontSize: {
+              xs: 12,
+              sm: 14,
+              md: 16,
+            },
             whiteSpace: "pre-wrap",
           }}
         >

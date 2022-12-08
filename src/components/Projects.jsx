@@ -14,9 +14,13 @@ function Projects() {
         },
       }}
     >
-      <Typography sx={{
-        textAlign: "center",
-      }}>my projects</Typography>
+      <Typography
+        sx={{
+          textAlign: "center",
+        }}
+      >
+        my projects
+      </Typography>
 
       {projectData.map((project) => {
         return (
