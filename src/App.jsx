@@ -25,7 +25,7 @@ function App() {
         <Box
           sx={{
             p: 2,
-            gap: 3,
+            gap: 2,
             display: "flex",
             borderRadius: {
               xs: 0,

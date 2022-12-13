@@ -14,12 +14,7 @@ function Contact() {
         justifyContent: "center",
       }}
     >
-      <Link
-        rel="noopener"
-        target="_blank"
-      href="/Tina_M.pdf"
-      download
->
+      <Link rel="noopener" target="_blank" href="/Tina_CV.pdf" download>
         <SvgIcon
           sx={{
             color: "black",

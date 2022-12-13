@@ -1,9 +1,10 @@
 const projectData = [
   {
     title: "Magazine",
-    desc: "\u2022 A website focused on fashion news \n\u2022 I used Vogue's GraphQL API to fetch articles from channels that I personally enjoy\n\u2022 Users can view the latest runway shows, read and bookmark articles and search specific designers or brands.",
+    desc: "\u2022 Fashion magazine/news app\n\u2022 I used Vogue's GraphQL API to fetch articles from channels that I personally enjoy\n\u2022 You can view the latest runway shows, search specific keywords or designers, and create an account to save articles. \n\u2022 Content is automatically updated. If there's a livestream, you'll be able to watch it live on the homepage",
     link: "https://raw-edge.vercel.app",
     tech: [
+      "React",
       "Next.js",
       "GraphQL",
       "Apollo",
@@ -14,7 +15,7 @@ const projectData = [
   },
   {
     title: "Gallery",
-    desc: "\u2022 Pinterest-inspired CRUD photo gallery app \n\u2022 The user can sign up, reset their password, upload, tag and delete their own images, edit their profile information and see images posted by other users",
+    desc: "\u2022 Pinterest-inspired CRUD photo gallery app \n\u2022 You can sign up, upload, tag and delete your own images, edit your password and profile information and see images posted by other users\n\u2022 The latest tags and images are displayed on the explore page\n\u2022 By clicking on a tag, you can see all images with that tag",
     link: "https://code-projekat.vercel.app",
     tech: ["React", "Firebase", "Framer Motion"],
   },

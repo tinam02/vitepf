@@ -33,10 +33,15 @@ function NameCard() {
           Tina
         </Typography>
       </Box>
+      <Typography>i'm a frontend developer</Typography>
       <Typography
-     
+        sx={{
+          fontSize: 14,
+          opacity: 0.6,
+          fontFamily: "monospace",
+        }}
       >
-       i'm a frontend developer
+        oge612@gmail.com • 060/70 20 696
       </Typography>
     </Box>
   );
